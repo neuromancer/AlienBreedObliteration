@@ -1,0 +1,8 @@
+--- data/level12.lev	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/level12.lev	2010-10-18 20:45:07.000000000 +0100
+@@ -13 +13 @@
+-<UNIT name=Player file=player1.uni tileposx=64.000000 tileposy=64.000000 lastposx=1303.374268 lastposy=1488.900635 currframe=1 frametime=105 state=movedownright>
++<UNIT name=Player file=player1.uni tileposx=64.000000 tileposy=64.000000 state=movedownright>
+@@ -15 +15 @@
+-<UNIT file=lift.uni tileposx=1520.000000 tileposy=1520.000000 lastposx=1520.000000 lastposy=1520.000000 action="LOADNEXTLEVEL level13.lev" triggerable=1>
++<UNIT file=lift.uni tileposx=1520.000000 tileposy=1520.000000 action="LOADNEXTLEVEL level13.lev" triggerable=1>

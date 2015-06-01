@@ -1,0 +1,8 @@
+--- data/forcefieldhorizontal.uni	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/forcefieldhorizontal.uni	2010-10-18 20:45:07.000000000 +0100
+@@ -2,2 +2,3 @@
+-OBJECTTYPE type=none
+-SPAWN stAte=idle
++STATS collideable=1
++OBJECTTYPE type=forcefieldhorizontal
++SPAWN state=idle

@@ -1,0 +1,5 @@
+--- data/GameEndText.txt	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/GameEndText.txt	2010-10-18 20:45:07.000000000 +0100
+@@ -8 +8 @@
+- - flashjesterpunk
++ - flashjesterpunk & habitualcoder

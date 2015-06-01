@@ -1,0 +1,20 @@
+--- data/toolsandweapons.wep	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/toolsandweapons.wep	2010-10-18 20:45:07.000000000 +0100
+@@ -2,7 +2,7 @@
+-WEAPON name="MachineGun"	description="standard issue machine gun"			tileimage=6 projectile="firemachinegun.uni"		firesound="gunfire.wav"			cost=8000	firetime=70		repeattime=30 nozzelflash=true pitchvary=false
+-WEAPON name="TwinFire"		description="broadhurst dj twinfire 3lg rapid fire" tileimage=3 projectile="firetwinfire.uni"		firesound="gundouble.wav"		cost=10000	firetime=100	repeattime=70 nozzelflash=false pitchvary=false
+-WEAPON name="FlameArc"		description="dalton arc flame rapid fire"			tileimage=0 projectile="fireflamearch.uni"		firesound="gunflamearc.wav"		cost=24000	firetime=100	repeattime=100 nozzelflash=false pitchvary=false
+-WEAPON name="PlasmaGun"		description="robinson plasma gun pump action"		tileimage=1 projectile="fireplasmagun.uni"		firesound="gunplasma.wav"		cost=35000	firetime=100	repeattime=70 nozzelflash=false pitchvary=false
+-WEAPON name="Flamethrower"	description="ryxx firebolt mk22 flamethrower"		tileimage=2 projectile="fireflamethrower.uni"	firesound="gunflamer.wav"		cost=48000	firetime=80		repeattime=20 nozzelflash=true pitchvary=true
+-WEAPON name="Sidewinders"	description="stirling multimatic triple barrel"		tileimage=4 projectile="firesidewinder.uni"		firesound="gunsidewinder.wav"	cost=60000	firetime=70		repeattime=70 nozzelflash=true pitchvary=true
+-WEAPON name="Lazer"			description="high impact astro lazer"				tileimage=5 projectile="firelazer.uni"			firesound="gunlazer.wav"		cost=75000	firetime=100	repeattime=130 nozzelflash=false pitchvary=false
++WEAPON name="MachineGun"	description="standard issue machine gun"			tileimage=6 projectile="firemachinegun.uni"		firesound="gunfire.wav"			cost=8000	firetime=70		repeattime=30 nozzelflash=true pitchvary=false arc=false bounce=false
++WEAPON name="TwinFire"		description="broadhurst dj twinfire 3lg rapid fire" tileimage=3 projectile="firetwinfire.uni"		firesound="gundouble.wav"		cost=10000	firetime=100	repeattime=70 nozzelflash=false pitchvary=false  arc=false bounce=false
++WEAPON name="FlameArc"		description="dalton arc flame rapid fire"			tileimage=0 projectile="fireflamearch.uni"		firesound="gunflamearc.wav"		cost=24000	firetime=100	repeattime=100 nozzelflash=false pitchvary=false  arc=true bounce=true
++WEAPON name="PlasmaGun"		description="robinson plasma gun pump action"		tileimage=1 projectile="fireplasmagun.uni"		firesound="gunplasma.wav"		cost=35000	firetime=100	repeattime=70 nozzelflash=false pitchvary=false  arc=true bounce=false
++WEAPON name="Flamethrower"	description="ryxx firebolt mk22 flamethrower"		tileimage=2 projectile="fireflamethrower.uni"	firesound="gunflamer.wav"		cost=48000	firetime=80		repeattime=20 nozzelflash=true pitchvary=true arc=true bounce=false
++WEAPON name="Sidewinders"	description="stirling multimatic triple barrel"		tileimage=4 projectile="firesidewinder.uni"		firesound="gunsidewinder.wav"	cost=60000	firetime=70		repeattime=70 nozzelflash=true pitchvary=true arc=true bounce=false
++WEAPON name="Lazer"			description="high impact astro lazer"				tileimage=5 projectile="firelazer.uni"			firesound="gunlazer.wav"		cost=75000	firetime=100	repeattime=130 nozzelflash=false pitchvary=false arc=false bounce=true
+@@ -10 +10 @@
+-TOOL name="scanner"			description="mobile scanner (use M key )15000 cr" cost=15000
++TOOL name="scanner"			description="mobile scanner             15000 cr" cost=15000

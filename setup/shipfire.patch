@@ -1,0 +1,5 @@
+--- data/shipfire.uni	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/shipfire.uni	2010-10-18 20:45:07.000000000 +0100
+@@ -3 +3 @@
+-OBJECTTYPE type=character aitype=none
++OBJECTTYPE type=character aitype=shipfire

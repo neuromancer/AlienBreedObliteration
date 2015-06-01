@@ -1,0 +1,5 @@
+--- data/level8.lev	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/level8.lev	2010-10-18 20:45:07.000000000 +0100
+@@ -19 +19 @@
+-<UNIT name=Player file=Player1.uni tileposx=48.000000 tileposy=192.000000 state=moveright>
++<UNIT name=Player file=player1.uni tileposx=48.000000 tileposy=192.000000 state=moveright>

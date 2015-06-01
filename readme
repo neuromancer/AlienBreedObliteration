@@ -1,0 +1,61 @@
+Alien Breed Obliteration 
+WII clone
+
+(Pure-python/Pygame portable version)
+
+http://sourceforge.net/projects/wiiab/
+
+(c) Habitulcoder 2010
+
+This software is Free software, licensed under GPLv3
+
+
+Notes
+-----
+
+This game was written primarily for the Wii but it was developed and tested
+on a Linux PC. The game can be run using just Python/pygame/SDL so is portable
+to any platform with those ports (inc. Windows).
+
+Please read LICENSE and take note about the media files.
+
+Installation
+------------
+
+Ensure you have Python 2.5+ installed
+Ensure you have Pygame installed (on Ubuntu this is the python-pygame package)
+
+Download FlashJesterPunk's PC AlienBreed Obliteration Zip from
+http://homepage.ntlworld.com/xavnet/alienbreed/alienbreed2k5x6.zip
+
+and copy the alienbreed2k5x6.zip into the alienbreed/setup directory
+cd setup
+python extract.py
+
+Then you can run the game as often n as you like from the alienbreed directory with
+
+python gameengine.py -m
+
+
+Keys
+----
+
+The defaults may not be to everyone's tastes but they are hardcoded. You can
+edit the utils.py if you wish to change them.
+
+class KeySet:
+	
+	def __init__(self):
+		self.left = mygame.MY_K_LEFT
+		self.right = mygame.MY_K_RIGHT
+		self.up = mygame.MY_K_UP
+		self.down = mygame.MY_K_DOWN
+		self.fire = mygame.MY_K_FIRE
+		self.change_weapon = mygame.MY_K_CYCLE_WEAPON
+		self.escape = mygame.MY_K_QUIT
+		self.walls = mygame.MY_K_CHEAT
+		self.fps = mygame.MY_K_FPS
+		self.intex = mygame.MY_K_INTEX
+		self.run = mygame.MY_K_RUN
+
+

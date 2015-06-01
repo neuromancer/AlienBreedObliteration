@@ -1,0 +1,5 @@
+--- data/firebossworm.uni	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/firebossworm.uni	2010-10-18 20:45:07.000000000 +0100
+@@ -4 +4 @@
+-OBJECTTYPE type=projectile
++OBJECTTYPE type=enemyprojectile

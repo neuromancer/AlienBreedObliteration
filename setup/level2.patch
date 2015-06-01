@@ -1,0 +1,8 @@
+--- data/level2.lev	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/level2.lev	2010-10-18 20:45:07.000000000 +0100
+@@ -9 +9 @@
+-Locate the chief security officer’s desk and recover the blue pass.">
++Locate the chief security officerï¿½s desk and recover the blue pass.">
+@@ -15 +15 @@
+-<UNIT name=Player file=Player1.uni tileposx=336.000000 tileposy=1072.000000 state=moveupright>
++<UNIT name=Player file=player1.uni tileposx=336.000000 tileposy=1072.000000 state=moveupright>

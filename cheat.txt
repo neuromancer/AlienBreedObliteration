@@ -1,0 +1,6 @@
+#cheatbutton=true
+#noaliens=true
+#quickquit=true
+#nohurt=true
+#intexanywhere=true
+#nextlevel=true

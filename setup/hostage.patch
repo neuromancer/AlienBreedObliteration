@@ -1,0 +1,11 @@
+--- data/hostage.uni	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/hostage.uni	2010-10-18 20:45:07.000000000 +0100
+@@ -13 +13,7 @@
+-ANIMATION state=dying numframes=1 finishstate=remove
++ANIMATION state=dieup numframes=1 finishstate=remove
++FRAME tile=4 time=1
++ANIMATION state=diedown numframes=1 finishstate=remove
++FRAME tile=1 time=1
++ANIMATION state=dieleft numframes=1 finishstate=remove
++FRAME tile=5 time=1
++ANIMATION state=dieright numframes=1 finishstate=remove

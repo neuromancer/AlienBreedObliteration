@@ -1,0 +1,12 @@
+--- data/biospike.uni	2010-10-18 20:45:06.000000000 +0100
++++ ab/config/biospike.uni	2010-10-18 20:45:07.000000000 +0100
+@@ -2,2 +2,2 @@
+-OBJECTTYPE type=character
+-STATS collideable=0
++OBJECTTYPE type=character aitype=biospike
++STATS collideable=1
+@@ -6 +6 @@
+-ANIMATION state=idle numframes=8
++ANIMATION state=idle numframes=1 finishstate=moving
+@@ -7,0 +8 @@
++ANIMATION state=moving numframes=7 finishstate=idle
